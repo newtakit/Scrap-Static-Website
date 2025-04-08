@@ -114,8 +114,9 @@ soup = BeautifulSoup(response.content, 'html.parser')
 
 ```  python
 
-from bs4 import BeautifulSoup
-soup = BeautifulSoup(response.content, 'html.parser')
+
+df = pd.DataFrame(data)
+df.to_csv('รายชื่อลูกค้า1.csv', index = False , encoding='utf-8-sig')
 
 ```
 ![4](image/4.jpg)
