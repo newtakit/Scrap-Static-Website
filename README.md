@@ -2,7 +2,8 @@
 
 ## Scrape ข้อมูลลูกค้าจากหน้าเว็บ
 เราจะเขียน Python Script เพื่อดึงข้อมูลจากหน้าเว็บบริษัท(CAF) และนำข้อมูลไปเก็บใส่ Google Sheets เพื่อใช้เป็น Data Source ในการทำ Dashboard
-![1](1.jpg)
+
+![1](image/1.jpg)
 ## flowchart
 
 ## Tools
