@@ -1,12 +1,18 @@
-## Scrap-Static-Website
+## Web Scraping Static Data Automation
 
-## Scrape ข้อมูลลูกค้าจากหน้าเว็บ
-เราจะเขียน Python Script เพื่อดึงข้อมูลจากหน้าเว็บบริษัท(CAF) และนำข้อมูลไปเก็บใส่ Google Sheets เพื่อใช้เป็น Data Source ในการทำ Dashboard
+![head](image/head.jpg)
 
-![1](image/1.jpg)
+
+## อธิบายเป้าหมาย
+
+"โปรเจคนี้มีเป้าหมายในการดึงข้อมูลจากเว็บไซต์แบบ Static เพื่อนำไปวิเคราะห์และจัดเก็บในรูปแบบ CSV โดยอัตโนมัติ"
+--
 
 
 ## flowchart
+
+![flow](image/flow.png)
+
 
 ## Tools
 
@@ -50,6 +56,7 @@ url = 'URL'
 req = session.get(url)
 
 ```
+![1](image/1.jpg)
 
 ##### 2. ใช้ BeautifulSoup4 อ่านข้อมูล จาก HTML
 
