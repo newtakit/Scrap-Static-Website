@@ -15,7 +15,7 @@
     1. requests
     2. Pandas
     3. BeautifulSoup4
-    4.
+    
 
 3. Visual Studio Code
 
