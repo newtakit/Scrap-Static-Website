@@ -43,6 +43,8 @@
 
 import requests
 
+import pandas as pd
+
 login = 'URL'
 
 session = requests.Session()
